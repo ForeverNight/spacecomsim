@@ -16,16 +16,15 @@ Basic Implementation:
 			->Strength
 			->Accuracy
 			->Reload
-
+		->Implment ships via xml files
 ##############################################
 Improvement Milestone 1:
 	->Ship Weapons as their own class
+	->Ships now carry ECM
 	->Ships now have powerplants
 		->Shields, Weapons, and Engines will take power
 		->Power can be redistributed
-	->Ships can now carry fighters
-		->First implemented as a weapon
-
+	->Save game
 ###############################################
 Improvement Milestone 2:
 	->Implement Captains
@@ -34,5 +33,8 @@ Improvement Milestone 2:
 		->The ability to talk with other ships will make this into more of an adventure
 	->Ability to buy/requisition new items
 		->Upgrading weaponry and fighters...
+	->Ships can now carry fighters
+		->First implemented as a weapon
 ################################################
-
+Improvement Milestone 3:
+	->Ncurses or Tileset Display
