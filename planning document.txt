@@ -1,0 +1,38 @@
+Spaceship Combat Simulation (SCS)
+#############################################
+Basic Implementation:
+	->Ships
+		->Hull Strength
+		->Shield Strength
+		->Engines
+			->Speed
+			->Evade
+			->Evasion Factor
+		->Guns
+			->Strength
+			->Accuracy
+			->Reload
+		->Missiles
+			->Strength
+			->Accuracy
+			->Reload
+
+##############################################
+Improvement Milestone 1:
+	->Ship Weapons as their own class
+	->Ships now have powerplants
+		->Shields, Weapons, and Engines will take power
+		->Power can be redistributed
+	->Ships can now carry fighters
+		->First implemented as a weapon
+
+###############################################
+Improvement Milestone 2:
+	->Implement Captains
+		->Captains will have their own ability modifiers that will affect all aspects of ships
+	->Diplomacy!
+		->The ability to talk with other ships will make this into more of an adventure
+	->Ability to buy/requisition new items
+		->Upgrading weaponry and fighters...
+################################################
+
